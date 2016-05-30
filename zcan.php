@@ -132,7 +132,7 @@ switch($confirm)
    break;
 
    default:
-    echo "Incorrect Command! \n";
+    echo "არასწორი ბრძანება! \n";
 }
 
 
