@@ -73,6 +73,8 @@ switch($confirm)
               echo $port."\033[31m პორტი დახურულია \033[0m \n \n ";
            }
 
+           echo "\033[44m დამატებითი ინფორმაცია: \033[0m  \n \n";
+
            foreach ($feed_response->getHeaders() as $name => $values) {
                 echo $name . ': ' . implode(', ', $values) . "\r\n";
             }
@@ -80,7 +82,7 @@ switch($confirm)
         elseif($opt == 4)
         {
            echo "\n";
-           echo "გთხოვთ დაიცადოთ. სკანირებამ შესაძლოა წაიღოს გარკვეული დრო \n";
+           echo "\033[41m გთხოვთ დაიცადოთ. სკანირებამ შესაძლოა წაიღოს გარკვეული დრო ... \033[0m \n";
            echo "\n";
 
            $ports_for_scan = [
@@ -117,6 +119,8 @@ switch($confirm)
                  }
 
            }
+
+           echo "\033[44m დამატებითი ინფორმაცია: \033[0m  \n \n";
 
            # get headers 
            foreach ($feed_response->getHeaders() as $name => $values) {
