@@ -9,4 +9,4 @@ Install using composer:
 ```
 composer require guzzlehttp/guzzle
 ```
-![alt tag](https://i.imgsafe.org/ec986eae63.png)
+
