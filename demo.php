@@ -1,5 +1,1 @@
-<?php
-
-//just comment
-
-echo "oekd";
+<?php echo 'ok'; 
