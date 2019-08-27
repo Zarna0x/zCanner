@@ -1,4 +1,4 @@
 <?php 
-e cho 'ok'; 
+echo 'ok'; 
 echo "\n";
 echo "sxva";
